@@ -1,11 +1,17 @@
 
 import './App.css';
+import Home from './screens/Home';
+
 
 function App() {
   return (
-<div>
-  <h1 className = 'fs-1'>hello world</h1>
-</div>
+    <>
+      <div>
+        <Home/>
+
+
+      </div>
+    </>
 
   );
 }
