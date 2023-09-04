@@ -18,10 +18,8 @@ export default function Navbar() {
             <li class="nav-item">
               <Link class="nav-link" to="/login">Login</Link>
             </li>
-            <li class="nav-item dropdown">
-              <Link class="nav-link dropdown-toggle" to="/dropdown" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </Link>
+            <li class="nav-item">
+              <Link class="nav-link" to="/createuser">Signup</Link>
             </li>
 
           </ul>
